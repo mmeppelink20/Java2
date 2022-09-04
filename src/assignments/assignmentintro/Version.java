@@ -5,7 +5,6 @@ public class Version {
     private int minor;
     private int patch;
 
-
     public Version() {
         major = 0;
         minor = 0;
@@ -41,7 +40,7 @@ public class Version {
             }
         }
         catch (NumberFormatException e){
-            throw new NumberFormatException("Error occured while parsing version!");
+            throw new IllegalArgumentException("Error occurred while parsing version!", e);
         }
 
     }
