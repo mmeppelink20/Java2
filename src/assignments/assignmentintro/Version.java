@@ -40,7 +40,7 @@ public class Version {
             }
         }
         catch (NumberFormatException e){
-            throw new IllegalArgumentException("Error occurred while parsing version!", e);
+            throw new IllegalArgumentException("Error occured while parsing version!", e);
         }
 
     }
@@ -64,27 +64,27 @@ public class Version {
         return major;
     }
 
+    public void setMajor(int major) {
+        validateVersionNumber(major);
+        this.major = major;
+    }
+
     public int getMinor() {
         return minor;
+    }
+
+    public void setMinor(int minor) {
+        validateVersionNumber(minor);
+        this.minor = minor;
     }
 
     public int getPatch() {
         return patch;
     }
 
-    public void major() {
-        major++;
-        minor = 0;
-        patch = 0;
-    }
-
-    public void minor() {
-        minor++;
-        patch = 0;
-    }
-
-    public void patch() {
-        patch++;
+    public void setPatch(int patch) {
+        validateVersionNumber(patch);
+        this.patch = patch;
     }
 
     @Override
@@ -92,7 +92,4 @@ public class Version {
         return major + "." + minor + "." + patch;
     }
 
-    public String release() {
-        return toString();
-    }
 }

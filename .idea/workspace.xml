@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assignments/assignmentintro/VersionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/assignments/assignmentintro/VersionTest.java" afterDir="false" />
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="completed &quot;Assignment Intro.&quot;">
+      <change afterPath="$PROJECT_DIR$/src/assignments/assignmentintro/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/assignments/assignmentintro/VersionManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignments/assignmentintro/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignmentintro/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/assignmentintro/VersionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/assignmentintro/VersionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignmentintro/VersionManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,6 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matth/Java2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
@@ -62,6 +59,46 @@
       <recent name="assignments.assignmentintro" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.VersionManagerTest.exceptionsTests">
+    <configuration name="VersionManagerTest.exceptionsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignmentintro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignments.assignmentintro" />
+      <option name="MAIN_CLASS_NAME" value="assignments.assignmentintro.VersionManagerTest" />
+      <option name="METHOD_NAME" value="exceptionsTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VersionManagerTest.initializationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignmentintro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignments.assignmentintro" />
+      <option name="MAIN_CLASS_NAME" value="assignments.assignmentintro.VersionManagerTest" />
+      <option name="METHOD_NAME" value="initializationTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VersionManagerTest.exceptionsTests" />
+        <item itemvalue="JUnit.VersionManagerTest.initializationTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,10 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661363254197</updated>
       <workItem from="1661710398216" duration="5663000" />
-      <workItem from="1661794853996" duration="1567000" />
-      <workItem from="1661966419552" duration="437000" />
-      <workItem from="1661966900120" duration="3353000" />
-      <workItem from="1661971220970" duration="420000" />
+      <workItem from="1662404985514" duration="4913000" />
+      <workItem from="1662409909560" duration="1311000" />
     </task>
     <servers />
   </component>
@@ -91,5 +126,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/assignmentintro/Version.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/assignments/assignmentintro/VersionManagerTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
