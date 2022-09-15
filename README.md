@@ -6,17 +6,17 @@ This is the project for my CIS-175 Java II course at Kirkwood Community College.
 
 The introductory unit for Java II was mostly a fast review of the final unit of Java I. However, Another thing we were introduced to was the lambda expression (->). I had previously heard of lambda expressions but did not know much about them. The syntax for the lambda expression reminds me of the arrow operator in C. Additionally we learned about the forEach() method in the ArrayList class. When the lambda expression is combined with the forEach method, it can make for a very short way to print the members of an ArrayList, for example: 
 ``` Java
-ArrayList<Integer> Numbers = new ArrayList<Integer>();
+ArrayList<Integer> numbers = new ArrayList<Integer>();
 
 // Add Number to list
-Numbers.add(23);
-Numbers.add(32);
-Numbers.add(45);
-Numbers.add(63);
+numbers.add(23);
+numbers.add(32);
+numbers.add(45);
+numbers.add(63);
 
 // forEach method of ArrayList and
 // print numbers
-Numbers.forEach((n) -> System.out.println(n));
+numbers.forEach((n) -> System.out.println(n));
 // code taken from https://www.geeksforgeeks.org/arraylist-foreach-method-in-java/
 ```
 this code would print the following numbers `23, 32, 45, 63`. 
