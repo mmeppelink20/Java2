@@ -52,8 +52,6 @@ public class VersionManager {
             throw new NoSuchElementException("Cannot rollback!");
         }
 
-
-
         return this;
     }
 
