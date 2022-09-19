@@ -75,7 +75,7 @@ class BookTest {
 
         book = new Book("test", new Person("asdf", "fdsa"), 101, true, LocalDate.now(), 1);
         book1 = new Book("test", new Person("asdf", "fdsa"), 100, true, LocalDate.now(), 1);
-        assertTrue(book1.compareTo(book) > 0);
+        assertTrue(book.compareTo(book1) < 0);
     }
 
     @Test
@@ -113,11 +113,19 @@ class BookTest {
     @Test
     void setUnitPrice() {
         Book book = new Book();
-
-        book = new Book();
         book.setUnitPrice(2.21341324);
+
         assertEquals(2.21, book.getUnitPrice(), 2);
+        assertThrows(IllegalArgumentException.class, () -> new Book("", new Person(), 1, true, LocalDate.now(), -1));
+
     }
+
+    @Test
+    void toStringTest() {
+        Book book = new Book("test", new Person("asdf", "fdsa"), 100, true, LocalDate.now(), 1);
+        assertEquals("Book{title='test', author='Person{firstName='asdf', lastName='fdsa'}', numPages=100, read=true}", book.toString());
+    }
+
 
 
 

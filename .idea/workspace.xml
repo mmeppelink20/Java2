@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="completed BookTest class and created person class">
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="worked on VersionManager">
+      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1305/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/assignments/challengeone/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/assignments/challengeone/BookTest.java" afterDir="false" />
     </list>
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,12 +55,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="assignments.challengeone" />
       <recent name="assignments.assignmentintro" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.setAuthor">
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookTest.compareToTest">
+    <configuration name="BookTest.compareToTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
@@ -69,54 +69,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="assignments.challengeone" />
       <option name="MAIN_CLASS_NAME" value="assignments.challengeone.BookTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookTest.getUnitPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.challengeone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assignments.challengeone" />
-      <option name="MAIN_CLASS_NAME" value="assignments.challengeone.BookTest" />
-      <option name="METHOD_NAME" value="getUnitPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookTest.setAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.challengeone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assignments.challengeone" />
-      <option name="MAIN_CLASS_NAME" value="assignments.challengeone.BookTest" />
-      <option name="METHOD_NAME" value="setAuthor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookTest.setDatePublishedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.challengeone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assignments.challengeone" />
-      <option name="MAIN_CLASS_NAME" value="assignments.challengeone.BookTest" />
-      <option name="METHOD_NAME" value="setDatePublishedTest" />
+      <option name="METHOD_NAME" value="compareToTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,13 +91,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.challengeone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignments.challengeone" />
+      <option name="MAIN_CLASS_NAME" value="assignments.challengeone.BookTest" />
+      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookTest.setAuthor" />
+        <item itemvalue="JUnit.BookTest.compareToTest" />
         <item itemvalue="JUnit.BookTest.setUnitPrice" />
-        <item itemvalue="JUnit.BookTest.getUnitPrice" />
-        <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.BookTest.setDatePublishedTest" />
+        <item itemvalue="JUnit.BookTest.toStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,17 +130,7 @@
       <workItem from="1661971220970" duration="420000" />
       <workItem from="1663004242533" duration="2485000" />
       <workItem from="1663175765671" duration="3719000" />
-      <workItem from="1663534911280" duration="1398000" />
-      <workItem from="1663546412565" duration="314000" />
     </task>
-    <task id="LOCAL-00001" summary="completed BookTest class and created person class">
-      <created>1663531093941</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663531093941</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,21 +146,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
-    <MESSAGE value="completed BookTest class" />
-    <MESSAGE value="completed BookTest class and created person class" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed BookTest class and created person class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="11" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
