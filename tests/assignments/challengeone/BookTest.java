@@ -56,6 +56,11 @@ class BookTest {
     void setAuthor() {
         Book book = new Book("test", new Person("asdf", "fdsa"), 1, true, LocalDate.now(), 1);
         assertEquals("Person{firstName='asdf', lastName='fdsa'}", book.getAuthor().toString());
+
+        book.setAuthor(new Person("asdf", "fdaa"));
+        assertEquals("Person{firstName='asdf', lastName='fdaa'}", book.getAuthor().toString());
+
+
     }
 
     @Test
