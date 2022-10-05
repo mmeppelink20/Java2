@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="updated BookTest">
-      <change afterPath="$PROJECT_DIR$/src/assignments/challengeone/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1306/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1309/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1310/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1311/Solution.java" afterDir="false" />
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="completed BookTest class and created person class">
+      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/challengeone/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/challengeone/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,8 +61,24 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="assignments.assignmentintro" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assignments.assignmenttwo" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.compareToTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignmenttwo.Main" />
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignmenttwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookTest.compareToTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -113,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BookTest.compareToTest" />
         <item itemvalue="JUnit.BookTest.setUnitPrice" />
         <item itemvalue="JUnit.BookTest.toStringTest" />
