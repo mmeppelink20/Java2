@@ -30,8 +30,24 @@ public class Main {
         amys_pets.add(new Cat("Velcro"));
         owners_and_their_pets.put(amy, amys_pets);
 
-        owners_and_their_pets.forEach((person, pets) -> System.out.println(person + ": " + pets));
-        System.out.println();
+        Person matthew = new Person("Matthew");
+        List<Animal> matthews_pets = new ArrayList<>();
+        matthews_pets.add(new Cat("Umbra"));
+        owners_and_their_pets.put(matthew, matthews_pets);
+
+        // part 1 code
+        owners_and_their_pets.forEach(
+                (person, pets) -> {
+                    if (!pets.isEmpty()) {
+                        System.out.println(person.getFirstName() + "'s pets: " + owners_and_their_pets.get(person).toString()
+                                .replace("[", "")
+                                .replace("]", ""));
+                    } else {
+                        System.out.println(person.getFirstName() + " has no pets.");
+                    }
+                }
+        );
+
 
         processData(owners_and_their_pets);
         printReport();
