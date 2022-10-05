@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="worked on VersionManager">
-      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1305/Solution.java" afterDir="false" />
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="updated BookTest">
+      <change afterPath="$PROJECT_DIR$/src/assignments/challengeone/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1306/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1309/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1310/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/en/codegym/task/pro/task13/task1311/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/assignments/challengeone/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/assignments/challengeone/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/challengeone/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/challengeone/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +134,18 @@
       <workItem from="1661971220970" duration="420000" />
       <workItem from="1663004242533" duration="2485000" />
       <workItem from="1663175765671" duration="3719000" />
+      <workItem from="1663781083047" duration="4474000" />
+      <workItem from="1664385653789" duration="3150000" />
+      <workItem from="1664817552091" duration="1414000" />
     </task>
+    <task id="LOCAL-00001" summary="updated BookTest">
+      <created>1663609299403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663609299403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +161,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated BookTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated BookTest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/assignments/challengeone/BookTest.java</url>
+          <line>113</line>
+          <properties class="assignments.challengeone.BookTest" method="setUnitPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

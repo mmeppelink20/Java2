@@ -1,11 +1,12 @@
 package assignments.challengeone;
 
+import java.awt.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 
-public class Person implements Comparable<Person> {
+public class Person {
     private String firstName;
     private String lastName;
     private int heightInInches;
@@ -22,6 +23,14 @@ public class Person implements Comparable<Person> {
     public static final String FIRST_NAME_EMPTY_ERR = "First name is required.";
     public Person() {
         this(DEFAULT_FIRST_NAME, DEFAULT_LAST_NAME);
+    }
+
+    public Person(String firstName) {
+        setFirstName(firstName);
+        lastName = DEFAULT_LAST_NAME;
+        heightInInches = DEFAULT_HEIGHT;
+        weightInPounds = DEFAULT_WEIGHT;
+        dateOfBirth = DEFAULT_DOB;
     }
 
     public Person(String firstName, String lastName) {
@@ -99,13 +108,13 @@ public class Person implements Comparable<Person> {
                 '}';
     }
 
-    @Override
-    public int compareTo(Person o) {
-        int result = this.lastName.compareTo(o.lastName);
-        if(result == 0) {
-            result = this.firstName.compareTo(o.firstName);
-        }
-        return result;
-    }
+//    @Override
+//    public int compareTo(Person o) {
+//        int result = this.lastName.compareTo(o.lastName);
+//        if(result == 0) {
+//            result = this.firstName.compareTo(o.firstName);
+//        }
+//        return result;
+//    }
 }
 
