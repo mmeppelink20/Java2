@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="completed BookTest class and created person class">
-      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Person.java" afterDir="false" />
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="Started work on assignment two">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matth/Java2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/matth/Java2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -154,6 +152,7 @@
       <workItem from="1663781083047" duration="4474000" />
       <workItem from="1664385653789" duration="3150000" />
       <workItem from="1664817552091" duration="1414000" />
+      <workItem from="1664997916139" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="updated BookTest">
       <created>1663609299403</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663609299403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started work on assignment two">
+      <created>1664993876616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664993876616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated BookTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated BookTest" />
+    <MESSAGE value="Started work on assignment two" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on assignment two" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,5 +204,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
