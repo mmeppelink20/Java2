@@ -38,8 +38,12 @@ public class Main {
         // part 1 code
         owners_and_their_pets.forEach(
                 (person, pets) -> {
-                    if (!pets.isEmpty()) {
+                    if (pets.size() > 1) {
                         System.out.println(person.getFirstName() + "'s pets: " + owners_and_their_pets.get(person).toString()
+                                .replace("[", "")
+                                .replace("]", ""));
+                    } else if (pets.size() == 1) {
+                        System.out.println(person.getFirstName() + "'s pet: " + owners_and_their_pets.get(person).toString()
                                 .replace("[", "")
                                 .replace("]", ""));
                     } else {
@@ -48,8 +52,10 @@ public class Main {
                 }
         );
 
+        System.out.println();
 
         processData(owners_and_their_pets);
+        System.out.println();
         printReport();
 
     }
@@ -57,12 +63,25 @@ public class Main {
     static Map<String, Integer> counter = new HashMap<>();
 
     public static void processData(Map<Person, List<Animal>> map) {
-        // Part 2 code
+        map.forEach(
+                (person, pets) -> {
+                    for (Animal pet : pets) {
+                        if(counter.containsKey(pet.getClass().getSimpleName())) {
+                            int count = counter.get(pet.getClass().getSimpleName());
+                            counter.replace(pet.getClass().getSimpleName(), count + 1);
+                        } else {
+                            counter.put(pet.getClass().getSimpleName(), 1);
+                        }
+                    }
+                }
+        );
     }
 
 
     public static void printReport() {
         System.out.println("--- Animals Report ---");
-        // Part 3 code
+        for (String key: counter.keySet()){
+            System.out.println("Type: "+ key + "    Count: " + counter.get(key));
+        }
     }
 }
