@@ -30,10 +30,9 @@ In module 1 of Java 2 we learned about JUnit testing. I had previously been expo
 
 in module 2 of Java 2 we learned about the Collections class, Maps and HashMaps, immutable vs mutable objects, deep copies and shallow copies, sorting, and the lambda expression. This has probably been the most difficult module throughout the entire Kirkwood Java track so far for me. I have no trouble implementing the concepts that were went over in this module, although, my knowledge of the lambda expression could use some more refining; when it comes to answering various questions about the Collections class I seem to strugle a little bit more. 
 
+## Contributing to Open Source Projects
 
-
-
-
+in module 3 of Java 2 we learned more in-depth about how to use Git and GitHub, a version control software, to collaborate on projects as a group of people, open source or otherwise. I previously thought I had a satisfactory understanding of how to use GitHub, but after completing this module I realized that wasn't really the case. This module introduced me to Git/GitHub features I previously had no knowledge of. The introduction of branches was perhaps the most interesting to me, they serve a valuable purpose in that you're able to work on an addition to your project with the peace of mind that if you mess up, you're able to go back very easily. 
 
 
 
