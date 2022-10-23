@@ -30,11 +30,26 @@ In module 1 of Java 2 we learned about JUnit testing. I had previously been expo
 
 in module 2 of Java 2 we learned about the Collections class, Maps and HashMaps, immutable vs mutable objects, deep copies and shallow copies, sorting, and the lambda expression. This has probably been the most difficult module throughout the entire Kirkwood Java track so far for me. I have no trouble implementing the concepts that were went over in this module, although, my knowledge of the lambda expression could use some more refining; when it comes to answering various questions about the Collections class I seem to strugle a little bit more. 
 
-## Contributing to Open Source Projects
+## Module 3 - Contributing to Open Source Projects
 
 in module 3 of Java 2 we learned more in-depth about how to use Git and GitHub, a version control software, to collaborate on projects as a group of people, open source or otherwise. I previously thought I had a satisfactory understanding of how to use GitHub, but after completing this module I realized that wasn't really the case. This module introduced me to Git/GitHub features I previously had no knowledge of. The introduction of branches was perhaps the most interesting to me, they serve a valuable purpose in that you're able to work on an addition to your project with the peace of mind that if you mess up, you're able to go back very easily. 
 
+## Nodule 4 - Generics
 
+in module 4 of Java 2 we generics and wildcard arguments. A genric class in Java looks like this
+
+```
+class GenricExample<T> {
+  // example code
+}
+```
+A generic type, in Java, can not be representative of a primitive data type, such as an int or double. It can only be a class data type, such as a String or Integer. Using generics in Java offers many benefits; the java compiler offers stronger type checking when compiling generic code and will issue a compile-time error if type safety is violated. compile-time errors are much easier to fix than runtime errors. Generics also eliminate the need for casting in a lot of scenarios. lastly, generics can be used to implement generic algorithms, such as, the incredibly useful `ArrayList<T>` .
+
+https://docs.oracle.com/javase/tutorial/java/generics/why.html
+
+Wildcard arguments are simply representative of an unknown type, and are representated by a `?`. They look like this
+
+``` reverse(List<?> list) ```
 
 
 
