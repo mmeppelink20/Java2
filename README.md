@@ -43,7 +43,7 @@ class GenricExample<T> {
   // example code
 }
 ```
-A generic type, in Java, can not be representative of a primitive data type, such as an int or double. It can only be a class data type, such as a String or Integer. Using generics in Java offers many benefits; the java compiler offers stronger type checking when compiling generic code and will issue a compile-time error if type safety is violated. compile-time errors are much easier to fix than runtime errors. Generics also eliminate the need for casting in a lot of scenarios. lastly, generics can be used to implement generic algorithms, such as, the incredibly useful `ArrayList<T>` .
+A generic type, in Java, can not be representative of a primitive data type, such as an int or double. It can only be a class data type, such as a String or Integer. Using generics in Java offers many benefits; the java compiler offers stronger type checking when compiling generic code and will issue a compile-time error if type safety is violated. compile-time errors are much easier to fix than runtime errors. Generics also eliminate the need for casting in a lot of scenarios. lastly, generics can be used to implement generic algorithms, such as, the incredibly useful `ArrayList<T>` or `HashMap<K,V>`
 
 https://docs.oracle.com/javase/tutorial/java/generics/why.html
 
