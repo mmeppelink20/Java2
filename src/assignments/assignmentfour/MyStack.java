@@ -56,10 +56,11 @@ public class MyStack<T> implements PushPop<T>{
         int loc1 = stack.size() - search(obj1);
         int loc2 = stack.size() - search(obj2);
 
-        T temp = stack.get(loc1);
-        stack.set(loc1, obj2);
-        stack.set(loc2, temp);
-
+        if(loc1 < stack.size() && loc2 < stack.size()) {
+            T temp = stack.get(loc2);
+            stack.set(loc2, obj1);
+            stack.set(loc1, temp);
+        }
     }
 
     // Pushes an item onto the top of this stack.
