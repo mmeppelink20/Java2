@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="completed part one">
+    <list default="true" id="8970b0cf-43b2-47c5-9307-1cd2fa978268" name="Changes" comment="final project files">
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/UIUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_access/MyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_access/MyDAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_access/PersonDAO_CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_access/PersonDAO_MySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_access/PersonDAO_XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_handlers/AddPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_handlers/GetPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final_project/data_handlers/MyDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_fr.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/assignmenttwo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignmenttwo/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,12 +68,20 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/matth/Java2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matth\IdeaProjects\Java2\src\main\resources\csv_files" />
+      <recent name="C:\Users\matth\IdeaProjects\Java2\src\main\resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="assignments.assignmentintro" />
@@ -63,7 +90,7 @@
       <recent name="assignments.assignmenttwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments.assignmenttwo.Main" />
       <module name="MyProject" />
@@ -154,7 +181,14 @@
       <workItem from="1664817552091" duration="1414000" />
       <workItem from="1664997916139" duration="3457000" />
       <workItem from="1665007022139" duration="1532000" />
-      <workItem from="1665337317538" duration="9978000" />
+      <workItem from="1665337317538" duration="10173000" />
+      <workItem from="1665347743492" duration="601000" />
+      <workItem from="1666201644165" duration="6109000" />
+      <workItem from="1666798601148" duration="4866000" />
+      <workItem from="1667060984304" duration="2885000" />
+      <workItem from="1667237242152" duration="3009000" />
+      <workItem from="1667344121428" duration="8000" />
+      <workItem from="1667405547951" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="updated BookTest">
       <created>1663609299403</created>
@@ -184,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665001308707</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed assignment 2">
+      <created>1665347357067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665347357067</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Completed assignment 4">
+      <created>1667063767430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667063767430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +253,10 @@
     <MESSAGE value="updated BookTest" />
     <MESSAGE value="Started work on assignment two" />
     <MESSAGE value="completed part one" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed part one" />
+    <MESSAGE value="Completed assignment 2" />
+    <MESSAGE value="Completed assignment 4" />
+    <MESSAGE value="final project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
