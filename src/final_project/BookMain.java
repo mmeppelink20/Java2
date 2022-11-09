@@ -2,25 +2,26 @@ package final_project;
 
 import assignments.assignmenttwo.Person;
 import final_project.data_access.MyDAO;
+import final_project.data_access.MyDAOBookFactory;
 import final_project.data_access.MyDAOFactory;
-import final_project.data_handlers.AddPerson;
-import final_project.data_handlers.DeletePerson;
-import final_project.data_handlers.GetPerson;
-import final_project.data_handlers.UpdatePerson;
+import final_project.data_handlers.book.AddBook;
+import final_project.data_handlers.book.DeleteBook;
+import final_project.data_handlers.book.GetBook;
+import final_project.data_handlers.book.UpdateBook;
 
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
-public class Main {
+public class BookMain {
     public static void main(String[] args) {
         String data_source = "csv";
-        MyDAO<Person> personDAO = MyDAOFactory.getMyDAO(data_source);
-        if(personDAO == null) {
-            System.out.println("Person data object not found");
+        MyDAO<Book> bookDAO = MyDAOBookFactory.getMyDAO(data_source);
+        if(bookDAO == null) {
+            System.out.println("Book data object not found");
             return;
         }
         try {
-            personDAO.readInData();
+            bookDAO.readInData();
         } catch(MyException e) {
             System.out.println(e.getMessage());
             return;
@@ -33,11 +34,10 @@ public class Main {
             String menuTitle = messages.getString("main-menu");
             String prompt = messages.getString("prompt");
             String[] menuOptions = {
-                    messages.getString("add-person")
-                    , messages.getString("get-person")
-                    , messages.getString("update-person")
-                    , messages.getString("delete-person")
-                    , messages.getString("change-language")
+                    "Add a Book",
+                    "Get a Book",
+                    "Update a Book",
+                    "Delete a Book"
             };
             choice = UIUtility.showMenuOptions(menuTitle, prompt, menuOptions, scanner, messages);
             if(choice <= 0 || choice > menuOptions.length + 1) {
@@ -51,16 +51,16 @@ public class Main {
             try {
                 switch (choice) {
                     case 1:
-                        new AddPerson().handleTask(personDAO, scanner, messages);
+                        new AddBook().handleTask(bookDAO, scanner, messages);
                         break;
                     case 2:
-                        new GetPerson().handleTask(personDAO, scanner, messages);
+                        new GetBook().handleTask(bookDAO, scanner, messages);
                         break;
                     case 3:
-                        new UpdatePerson().handleTask(personDAO, scanner, messages);
+                        new UpdateBook().handleTask(bookDAO, scanner, messages);
                         break;
                     case 4:
-                        new DeletePerson().handleTask(personDAO, scanner, messages);
+                        new DeleteBook().handleTask(bookDAO, scanner, messages);
                         break;
                     case 5:
                         language.setMessages(scanner);

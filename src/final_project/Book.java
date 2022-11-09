@@ -1,15 +1,13 @@
-package assignments.challengeone;
+package final_project;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
 
 public class Book implements Comparable<Book> {
-    int id;
-
+    private int id;
     private String title;
-    private Person author;
+    private String authorName;
     private int numPages;
-    private boolean read;
     public static final String DEFAULT_TITLE = "Undefined";
     private static int bookCount = 0;
     private LocalDate datePublished;
@@ -19,24 +17,30 @@ public class Book implements Comparable<Book> {
 
     private double unitPrice;
     public Book() {
-        // add book id
+        id = 000000000;
         title = DEFAULT_TITLE;
-        author = new Person();
         numPages = 1;
-        read = false;
         bookCount++;
         datePublished = LocalDate.now();
         unitPrice = 1.00;
     }
 
-    public Book(String title, Person author, int numPages, boolean read, LocalDate datePublished, double unitPrice) {
+    public Book(int id, String title, String authorName, int numPages, LocalDate datePublished, double unitPrice) {
+        setId(id);
         setTitle(title);
-        setAuthor(author);
+        setAuthor(authorName);
         setNumPages(numPages);
-        this.read = read;
         bookCount++;
         setDatePublished(datePublished);
         setUnitPrice(unitPrice);
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public static int getBookCount() {
@@ -55,16 +59,18 @@ public class Book implements Comparable<Book> {
         }
     }
 
-    public Person getAuthor() {
-        return author;
-    }
 
-    public void setAuthor(Person author) {
-        if (author == null) {
+
+    public void setAuthor(String authorName) {
+        if (authorName == null) {
             throw new IllegalArgumentException("The author is required.");
         } else {
-            this.author = author;
+            this.authorName = authorName;
         }
+    }
+
+    public String getAuthor() {
+        return authorName;
     }
 
     public int getNumPages() {
@@ -78,22 +84,11 @@ public class Book implements Comparable<Book> {
         this.numPages = numPages;
     }
 
-    public boolean isRead() {
-        return read;
-    }
 
-    public void setRead(boolean read) {
-        this.read = read;
-    }
 
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", numPages=" + numPages +
-                ", read=" + read +
-                '}';
+        return "\nTitle: " + title + "\nAuthor: " + authorName + "\nPage Count: " + numPages + "\n";
     }
 
     @Override

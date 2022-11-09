@@ -174,21 +174,29 @@ public class PersonDAO_CSV implements MyDAO<Person> {
 
     @Override
     public List<Person> getAll() throws MyException {
-        return null;
+        verifyData();
+        return list;
+    }
+
+    @Override
+    public void verifyData() throws MyException {
+        if(list == null){
+            readInData();
+        }
     }
 
     @Override
     public void set(int id, Person obj) throws MyException {
-
+        list.set(id, obj);
+        saveToFile();
     }
 
-    @Override
-    public Person remove(int id) throws MyException {
-        return null;
-    }
+
 
     @Override
-    public Person remove(Person obj) throws MyException {
-        return null;
+    public boolean remove(Person obj) throws MyException {
+        boolean reuslt = list.remove(obj);
+        saveToFile();
+        return reuslt;
     }
 }

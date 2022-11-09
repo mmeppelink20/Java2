@@ -40,17 +40,19 @@ public class PersonDAO_MySQL implements MyDAO<Person> {
     }
 
     @Override
+    public void verifyData() throws MyException {
+
+    }
+
+    @Override
     public void set(int id, Person obj) throws MyException {
 
     }
 
-    @Override
-    public Person remove(int id) throws MyException {
-        return null;
-    }
+
 
     @Override
-    public Person remove(Person obj) throws MyException {
-        return null;
+    public boolean remove(Person obj) throws MyException {
+        return false;
     }
 }
