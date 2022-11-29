@@ -34,9 +34,9 @@ in module 2 of Java 2 we learned about the Collections class, Maps and HashMaps,
 
 in module 3 of Java 2 we learned more in-depth about how to use Git and GitHub, a version control software, to collaborate on projects as a group of people, open source or otherwise. I previously thought I had a satisfactory understanding of how to use GitHub, but after completing this module I realized that wasn't really the case. This module introduced me to Git/GitHub features I previously had no knowledge of. The introduction of branches was perhaps the most interesting to me, they serve a valuable purpose in that you're able to work on an addition to your project with the peace of mind that if you mess up, you're able to go back very easily. 
 
-## Nodule 4 - Generics
+## Module 4 - Generics
 
-in module 4 of Java 2 we generics and wildcard arguments. A genric class in Java looks like this
+in module 4 of Java 2 we generics and wildcard arguments. A generic class in Java looks like this
 
 ```
 class GenricExample<T> {
@@ -51,10 +51,15 @@ Wildcard arguments are simply representative of an unknown type, and are represe
 
 ``` reverse(List<?> list) ```
 
+## Moduel 6 - Lambda Expressions
 
 
-
-
+in module 6 of Java 2, titled "Lambda Expressions" we learned about lambda expressions, method referenes, and functional interfaces. The functional interfaces we learned about were, the Supplier, Consumer, Predicate, Function, and UnaryOperator; we also learned about their "Bi" counter-parts, that except two arguments, rather than one. Method referenes are useful for being able to shorten the amount of code you have to write, here's an example of a method reference and consumer that really helped me understand how to use method references:
+``` 
+Consumer<String> consumer = UIUtility::showSectionTitle;
+consumer.accept("Matthew"); 
+```
+This piece of code would simply call the UIutilitiy's showSectionTItle method, with the given arguments of the Consumer interface's abstract method accept() when paired with the object name.
 
 
 
