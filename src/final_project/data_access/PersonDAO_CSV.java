@@ -3,10 +3,7 @@ package final_project.data_access;
 import assignments.assignmenttwo.Person;
 import final_project.MyException;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.*;
@@ -18,7 +15,7 @@ public class PersonDAO_CSV implements MyDAO<Person> {
 
     @Override
     public void readInData() throws MyException {
-        try(Scanner scanner = new Scanner(new File(FILE_NAME))) {
+        try(BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
             list = new ArrayList<Person>();
             String line = "";
             int lineCount = 1;
@@ -29,10 +26,13 @@ public class PersonDAO_CSV implements MyDAO<Person> {
             int height;
             double weight;
             LocalDate dateOfBirth;
-            line = scanner.nextLine(); // reads in header row
-            while(scanner.hasNextLine()) {
+            line = reader.readLine(); // reads in header row
+            while(true) {
+                if(line == null) {
+                    break;
+                }
                 lineCount++;
-                line = scanner.nextLine();
+                line = reader.readLine();
                 fields = line.split(",");
                 try {
                     id = Integer.parseInt(fields[0]);
@@ -64,7 +64,7 @@ public class PersonDAO_CSV implements MyDAO<Person> {
                 }
             }
 
-        } catch(FileNotFoundException e) {
+        } catch(IOException e) {
             throw new MyException("File '" + FILE_NAME + "' not found");
         }
     }

@@ -77,6 +77,10 @@ public class Main {
         );
     }
 
+    public static void processData2(Map<Person, List<Animal>> map) {
+        Map<Integer, Integer> counter2 = new TreeMap<>();
+    }
+
 
     public static void printReport() {
         System.out.println("--- Animals Report ---");

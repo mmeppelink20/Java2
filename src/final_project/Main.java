@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String data_source = "csv";
+        String data_source = "csv"; // mysql
         MyDAO<Person> personDAO = MyDAOFactory.getMyDAO(data_source);
         if(personDAO == null) {
             System.out.println("Person data object not found");

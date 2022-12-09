@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.chrono.ChronoLocalDateTime;
 
-public class Person {
+public class Person implements Comparable<Person>{
     private String firstName;
     private String lastName;
     private int heightInInches;
@@ -119,13 +119,13 @@ public class Person {
         return firstName + " " + lastName;
     }
 
-//    @Override
-//    public int compareTo(Person o) {
-//        int result = this.lastName.compareTo(o.lastName);
-//        if(result == 0) {
-//            result = this.firstName.compareTo(o.firstName);
-//        }
-//        return result;
-//    }
+    @Override
+    public int compareTo(Person o) {
+        int result = this.lastName.compareTo(o.lastName);
+        if(result == 0) {
+            result = this.firstName.compareTo(o.firstName);
+        }
+        return result;
+    }
 }
 
