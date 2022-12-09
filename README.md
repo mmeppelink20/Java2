@@ -61,6 +61,22 @@ consumer.accept("Matthew");
 ```
 This piece of code would simply call the UIutilitiy's showSectionTItle method, with the given arguments of the Consumer interface's abstract method accept() when paired with the object name.
 
+## GENERAL ETHICAL PRINCIPLES
+### 1.1 Contribute to society and to human well-being
+I promise to promote fundamental human rights and protect every individual's right to autonomy. I promoise to respect diversity, promote work that will be used in socially responsible ways, will meet societies needs, and will be accessible. As well as promoting environmental sustainability.
+### 1.2 Avoid harm
+I promise to not cause physical or mental harm to others, unjustified destruction or disclosure of information, and unjustified damage to property, reputation, and the environment. I promise to complete my assigned duties in good faith; meaning, I will not commit any of the aforementioned actions in favor of personal gain. I promise to to report any signs of system risks that might result in any of the aforementioned categories of harm.
+### 1.3 Be honest and trustworthy.
+I promise to provide transparency and full discolsure of all pertinent system capabilities, limitations, and potential problems to the appropriate parties. This includes: making deliberately false or misleading claims, fabricating or falsifying data, offering or accepting bribes. I promise not to commit and of the aforementioned acts in any circumstance.
+### 1.4 Be fair and take action not to discriminate.
+I promise to uphold the values of equality, tolerance, and respect for others. I promise to foster an environment with fair participation for all kinds of people. I promise to avoid creating any system that will enhance or create any inequalities.
+### 1.5 Respect the work required to produce new ideas, inventions, creative works, and computing artifacts.
+I promise to respect other creator's ideas, inventinos, work, and artifacts, and respect copyrights, patents, trade secrets, license agreements, and other methods of protecting an author's works. I promise to not unduly oppose others' contributions of time and energy to projects that will help society.
+### 1.6 Respect privacy.
+I promise to familiarize myself with the various definitions and forms of privacy and understand the forms of privacy, rights and responsibilities associated with the collection and use of personal information. I promise to only collect the minimum amount of information necessary to make a system work.
+### 1.7 Honor confidentiality.
+I promise to protect trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications. I promise to protect confidentiality except in cases where it is evidence of the violation of law, and to only disclose such confidential information to the appropriate authorities. 
+
 
 
 
